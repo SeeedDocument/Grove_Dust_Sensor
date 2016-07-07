@@ -41,13 +41,16 @@ In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 - [Air Quality Monitor](http://www.howmuchsnow.com/arduino/airquality/grovedust/)
 - Air Conditioner
 - Ventilator
+
 ## Getting Started
+
 ### <span id="jump">Cautions</span>
 - Please keep it upright.
 - 3 min preheat time is required while using for the first time.
 - Arbitrary operation may cause unexpected damage.
 - Following widgets (red rectangle marked) is used only for the factory setting. Please **DO NOT** change the default configuration.
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/Grove_-_Dust_Sensor_cautions.jpg)
+
 ### Grove - Help
 Following documents help user get started with Grove.
 - [Preface - Getting Started](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/Grove%20help/Preface.pdf).
@@ -139,6 +142,7 @@ We can see the concentration of dust is very low in the evening, but it is highe
 
 ## Related Projects
 If you want to make some awesome projects by Grove - Dust Sensor, here is a project for reference.
+
 ### Air Quality Box
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/600px-Overview0.png)
 
@@ -147,6 +151,7 @@ This section an IoT demo make by Seeeduino and [Grove](http://www.seeedstudio.co
 More attention is being paid to the environmental air quality nowadays because the tiny particles in the air around can badly endanger people’s health. We always get the information of environment from our government department. But it’s the average value of the whole city/section. It can not reflect the environment around you accurately.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/200px-Wiki_makeitnow_logo.png)](http://www.seeed.cc/project_detail.html?id=35)
+
 ## Resources
 - [Grove_-_Dust_sensor datasheet](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/resource/Grove_-_Dust_sensor.pdf) 
 - [De-construction of the Shinyei PPD42NS dust sensor Made by Tracy Allen](https://github.com/SeeedDocument/Grove_Dust_Sensor/raw/master/resource/ShinyeiPPD42NS_Deconstruction_TracyAllen.pdf)
