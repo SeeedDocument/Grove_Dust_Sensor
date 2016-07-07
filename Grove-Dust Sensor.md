@@ -49,6 +49,7 @@ In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 - 3 min preheat time is required while using for the first time.
 - Arbitrary operation may cause unexpected damage.
 - Following widgets (red rectangle marked) is used only for the factory setting. Please **DO NOT** change the default configuration.
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/Grove_-_Dust_Sensor_cautions.jpg)
 
 ### Grove - Help
@@ -118,6 +119,7 @@ void loop() {
 }
 ```
 In this program, the Seeeduino samples the total duration of "logic low" in 30s, and this duration illustrates the dust density of environment. Open Serial Monitor, we can get air quality's value detected by sensor from PC's serial port.
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/Dust_sensor_1.png)
 
 The result above consists of three parts: lowpulseoccupancy, ratio and concentration.
@@ -127,9 +129,11 @@ The result above consists of three parts: lowpulseoccupancy, ratio and concentra
 "ratio" reflects on which level LPO Time takes up the whole sample time.
 
 "concentration" is a figure that has a physical meaning. It is calculated from the characteristic graph below by using the LPO time.
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/600px-Characteristics.jpg)
 
 Here is a graph of the dust concentration measured in office :
+
 ![](https://raw.githubusercontent.com/SeeedDocument/Grove_Dust_Sensor/master/image/600px-Dust_sensor_4.jpg)
 
 We can see the concentration of dust is very low in the evening, but it is higher in the afternoon. A threshold can be set when the concentration is above a value. Also, if you want to set the sensor more sensitive you can add a fan on the sensor, and add a 10kΩ resistor between the Pin5 and Ground. More information please visit the [blog of A.J](https://indiaairquality.com/2014/12/14/measuring-the-pickle-jr-a-modified-ppd42-with-an-attached-fan/). 
