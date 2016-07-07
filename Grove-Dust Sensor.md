@@ -28,10 +28,10 @@ In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 |Standby Current Supply|	-|	90|	-|	mA|
 |Detectable range of concentration|	-|	0~28,000 / 0 ~ 8000	|-|	pcs/liter / pcs/0.01cf|
 |Operating Temperature Range|	0|	-|	45|	°C|
-|Output Method|	Negative Logic, Digital output, High: over 4.0V(Rev.2), Low: under 0.7V|
-|Detecting the particle diameter|	>1 μm|
-|Dimensions|	59(W) × 45(H) × 22(D) [mm]|
-|Humidity Range|	95% rh or less|
+|Output Method||	Negative Logic, Digital output, High: over 4.0V(Rev.2), Low: under 0.7V|||
+|Detecting the particle diameter||	>1 μm|||
+|Dimensions|	|59(W) × 45(H) × 22(D) [mm]|||
+|Humidity Range||	95% rh or less|||
 
 ### Platform Supported
 - Arduino
