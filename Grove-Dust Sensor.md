@@ -35,6 +35,7 @@ In the latest version, output Hi Voltage is changed from 4.0V to 4.5V.
 
 ### Platform Supported
 - Arduino
+
 ## Application Ideas
 - Air Purifier
 - [Air Quality Monitor](http://www.howmuchsnow.com/arduino/airquality/grovedust/)
